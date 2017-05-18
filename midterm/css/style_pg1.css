@@ -115,7 +115,7 @@ nav a.selected {
     background-position: 50%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: auto 38%, 100%;
+    background-size: auto 37%, 100%;
 }
 
 .animation.f1 {
@@ -149,16 +149,16 @@ nav a.selected {
 }
 
 .animation.f7 {
-    background-image: url(../img/frames/f5.png), url(../img/pg1/f7.jpg);
+    background-image: url(../img/frames/f7.png), url(../img/pg1/f7.jpg);
     background-color: #000;
 }
 
 .animation.f8 {
-    background-image: url(../img/frames/f4.png), url(../img/pg1/f8.jpg);
+    background-image: url(../img/frames/f8.png), url(../img/pg1/f8.jpg);
     background-color: #000;
 }
 
 .animation.f9 {
-    background-image: url(../img/frames/f3.png), url(../img/pg1/f9.gif);
+    background-image: url(../img/frames/f9.png), url(../img/pg1/f9.gif);
     background-color: #000;
 }

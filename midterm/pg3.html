@@ -5,12 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Known As</title>
         
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
         <link rel="stylesheet" href="css/style_pg3.css">
         <link href="https://fonts.googleapis.com/css?family=Faster+One|Press+Start+2P" rel="stylesheet">
         
-        <link rel="stylesheet" href="css/animate.css">
-        <script src="js/jquery.viewportchecker.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+        
+        <script src="js/viewportchecker.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     </head>
     
     <body>
@@ -22,50 +23,49 @@
         </nav>
         
         <!---divs--->
-        <div class="f1">
+        <div class="f1" >
             <div class="content">
                 <span class="caption">Known As</span>
             </div>
         </div>
         
         <div class="f2">
-             <div class="content">
+             <div class="content animated slideInUp infinite">
                  <span class="caption">Living in my own world</span>
              </div>
          </div>
         
         <div class="f3">
-             <div id="content">
-                 <span class="caption">Being really active on the beach</span>
+             <div class="content animated slideInUp infinite">
+                 <span class="caption">Taking forever to decide</span>
              </div>
          </div>
 
         <div class="f4">
-            <div id="content">
-                <span class="caption">Taking forever to decide</span>
-            </div>
-        </div>
-        
-        <div class="flash">
-            <div class="f5">
-                <div id="content">
-                    <span class="caption">Jumpscaring people</span>
-                </div>
+            <div class="content animated slideInUp infinite">
+                <span class="caption">Jumpscaring people</span>
             </div>
         </div>
         
         <div class="f5">
-            <div id="content">
-                <span class="caption">Being mischivous</span>
+            <div class="content animated slideInUp infinite">
+                <span class="caption">Napping in the sunlight</span>
             </div>
         </div>
-        
-        <div class="f6">
-            <div id="content">
-                <span class="caption">Napping in the sunlight anywhere</span>
-            </div>
-        </div>
+
         
         <script src="js/rainbowsparkle.js" type="text/javascript"></script>
+        
+        <!---animate--->
+        <script type="text/javascript">
+            jQuery(document).ready(function() {
+                jQuery('.post').addClass("hidden").viewportchecker({
+                    classToAdd: 'visible animated fadeIn',
+                    offset: 100
+                });
+            });
+        </script>
+
+        
     </body>
 </html>

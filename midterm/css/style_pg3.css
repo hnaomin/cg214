@@ -33,7 +33,7 @@ nav a.selected {
     border-bottom: 1px solid white;
 }
 
-/*------background------*/
+/*------background------*/    
 .f1, .f2, .f3, .f4, .f5 {
     position: relative;
     background-position: center;
@@ -41,26 +41,27 @@ nav a.selected {
     background-size: cover;
     background-color: #000;
     min-height: 100%;
-
+    
+    
 }
 .f1 {
     background-image: url("../img/f1.gif");
 }
 
 .f2 {
-    background-image: url("../img/pg2/f2.jpg");
+    background-image: url("../img/pg3/f2.gif");
 }
 
 .f3 {
-    background-image: url("../img/pg2/f3.jpg");
+    background-image: url("../img/pg3/f3.gif");
 }
 
 .f4 {
-    background-image: url("../img/pg2/f4.gif");
+    background-image: url("../img/pg3/f4.jpg");
 }
 
 .f5 {
-    background-image: url("../img/pg2/f5.gif");
+    background-image: url("../img/pg3/f5.gif");
 }
 
 
@@ -80,12 +81,4 @@ nav a.selected {
     padding: 18px;
     font-size: 25px;
     text-transform: uppercase;
-}
-
-/*------animate------*/
-.hidden{
-     opacity:0;
-}
-.visible{
-     opacity:1;
 }
