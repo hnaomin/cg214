@@ -1,0 +1,26 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background: #94D0FF; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#C774E8, #94D0FF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#C774E8, #94D0FF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#C774E8, #94D0FF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#C774E8, #94D0FF); /* Standard syntax (must be last) */
+}
+
+/* find in */
+.fade-in{
+  -webkit-animation: fade-in 2s ease;
+  -moz-animation: fade-in ease-in-out 2s both;
+  -ms-animation: fade-in ease-in-out 2s both;
+  -o-animation: fade-in ease-in-out 2s both;
+  animation: fade-in 2s ease;
+  visibility: visible;
+  -webkit-backface-visibility: hidden;
+}
+
+@-webkit-keyframes fade-in{0%{opacity:0;} 100%{opacity:1;}}
+@-moz-keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
+@-o-keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
+@keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
